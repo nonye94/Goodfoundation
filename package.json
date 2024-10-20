@@ -1,0 +1,19 @@
+{
+  "name": "goodfoundation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chijioke",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "pagination": "^0.4.6",
+    "paginationjs": "^2.6.0",
+    "pg": "^8.12.0"
+  }
+}
